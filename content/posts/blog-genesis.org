@@ -1,26 +1,142 @@
 ---
-title: "Creating a personal development blog"
+title: "Creating a development blog"
 date: 2020-12-13T18:13:18-07:00
-draft: true
+draft: false
 ---
 
-* How I created this blog
+Welcome to the inaugural post of Organizing Chaos!
 
-  I'm the type of person who loves to tinker with new pieces of technology. Recently, I've been experimenting with a few different
-  technical ideas that I thought were worth writing about (stay tuned for future posts!), so naturally I started to get excited about
-  the prospect of setting up a blogging environment. After a few days of research/experimentation, I've arrived at a very simple setup
-  that I'm quite happy with.
+I'm the type of person who loves to tinker with new pieces of technology. Recently, I've been experimenting with a few different
+technical ideas that I thought were worth writing about (stay tuned for future posts 😉), so naturally I started to get excited about
+the prospect of setting up a personal development blog for myself. After a weekend of research and experimentation, I've arrived at a
+very simple (yet effective!) setup that I'm quite happy with.
 
-  The remainder of this post describes the open-source tools and workflow that I'm using to create this blog, including the post that
-  you're reading right now. How meta!
+The remainder of this post will describe the open-source tools and workflow that I'm using to create this blog, including a complete
+example to generate the post that you're reading right now. How meta!
 
-** Requirements
+* Requirements
 
-   Before building something, it's always important to consider the basic requirements for solving the problem at hand. For this personal
-   development blog, my basic requirements were simple. The most important things to me were that my setup should be:
+  Before building something, it's always important to consider the basic requirements for solving the problem at hand. For this personal
+  development blog, my basic requirements were simple. The most important things to me were that my setup should be:
 
-   - Simple:
-   - Efficient:
-   - Consistent:
+  - For the author:
+    + Simple: writing a blog isn't rocket science, and I don't need anything fancy. Above all else, the setup should be easy to understand and work with.
+    + Efficient: when writing individual posts, the author shouldn't have to worry about the "blogging framework". The ideal workflow is to write a post and publish it!
+  - For the user:
+    + Pretty: while it's unlikely that I'll design a visual masterpiece, the blog should look nice on both desktop and mobile displays.
+    + No-nonsense: when viewing the blog's index or any individual post, the reader should have a consistent, no-frills experience. Someone visiting this blog is probably
+      here to read a post, not opt-in to cookies or sign up for a newsletter.
 
-** Editing
+  While these are admittedly very high-level and simplistic requirements, they provide enough context to get started with a search for a solution. We're out to build
+  something that's easy to use and understand, looks nice, doesn't get in the way of our readers, and that's optimized for efficiency of writing individual blog posts.
+
+* Site generation
+
+  Looking at our list of requirements, right away it seemed to me that static site generation was going to be a good route to pursue. In general, I'm a big fan of simple
+  websites (after all, why should we use JavaScript if we're not really doing anything interactive?), and static site generation is a simple way to build a simple site.
+  Unfortunately, deciding /which/ static site generator to use is not necessarily so simple. There are a plethora of options available, and many of the differences between
+  them are minor. Because I'm not interested in using JavaScript for this blog, the choice ultimately boiled down to two contenders:
+
+  1. [[https://jekyllrb.com/][Jekyll]], the veteran mainstay
+  2. [[https://gohugo.io/][Hugo]], a more modern take on Jekyll's core ideas
+
+  The TL;DR for the rest of this section is: I picked Hugo. There's a complete example of what a Hugo site looks like and some very basic usage examples in the last section
+  of the post. The important thing to know about the Hugo choice is that, after less than an hour of minor theme modification, the blog is now at the point where authoring a new
+  post is as simple as writing a single file containing the post's contents.
+
+  If you don't care why I chose Hugo over Jekyll, [[#Editing][you can skip straight to the next section]].
+
+  At first, I thought I was going to end up going with Jekyll. All things equal, I usually prefer the more established of two comparable technologies. In this case, however,
+  Hugo ended up winning out. There were a few reasons for this, but the biggest factor for me was the ease of finding, understanding, and modifying themes. Despite a huge number
+  of available themes, I struggled to find a Jekyll theme that had a base look that I liked enough to want to adapt for my own blog. I eventually found Hyde, but was quickly
+  disappointed with the configuration options of the theme. In general, I found myself frustrated with Jekyll; it felt somehow difficult to understand and to work with.
+As this seemed to be violating my simplicity requirement, I decided to give Hugo a try.
+
+  While I had spent almost three hours failing to get Jekyll looking decent and functioning properly, I had a Hugo site up and running in under an hour (using my own form of
+  the [[https://www.github.com/jkaye2012/strange-case][strange-case]] theme) and was able to start writing some content. A simple, easy to understand framework is the most important requirement to me, so Hugo won the day.
+
+  Interestingly, after getting a bit more familiar with both tools over the past few days, I have a feeling that Hugo might actually be /more/ complex than Jekyll is; however,
+  Hugo does a fantastic job of hiding this complexity. This allows basic users to take advantage of simple subsets of its functionality, while also providing power users with
+  more flexibility for advanced use cases. I don't know the details of the framework very well, but on the surface, it seems to be quite well-designed from at least that perspective.
+
+  If you're interested in seeing just how easy it was for me to modify the base theme for my purposes, you can take a look at [[https://github.com/jkaye2012/strange-case/commit/203d4932183de989a3f725458a60307b12c1c3e5][my first theme modification]], wherein I added the
+  horizontal social icons section to the blog's sidebar.
+
+* Authoring a post
+  :PROPERTIES:
+  :CUSTOM_ID: Editing
+  :END:
+
+  As mentioned in the previous section, after downloading Hugo and making my theme modifications, the only thing left to do is actually write a post.
+
+  For editing of all kinds, I am a die-hard [[https://www.gnu.org/software/emacs/][Emacs]] user. [[https://orgmode.org/][Org-mode]] is one of the most popular Emacs features, and for good reason: it's amazing for managing structured
+  text. Hugo supports org-mode as one of its markdown formats meaning that, bar a few minor idiosyncrasies,
+  posts will "just work" when written in a .org file within the blog's Git repository. Given all of org-mode's powerful features, this is a huge win for efficiency
+  while writing each individual posts.
+
+  Emacs and org-mode certainly aren't for everyone. The learning curve is steep and some of the edges are rough compared to more modern tooling (though many of the recently-developed
+  Emacs packages are nothing short of amazing). That being said, I thought I'd provide a motivating example that I think goes to show a little bit of the power that Emacs provides
+  its devoted users.
+
+** Org-babel
+
+   One of the reasons that writing org files is a great choice for a development blog is [[https://orgmode.org/worg/org-contrib/babel/][org-babel]]. An early journal paper describes babel as a
+   "multi-language computing environment for literate programming", which is a very apt (if not so concise) description. Babel allows the author to /weave/ executable code blocks directly
+   within their prose. Individual blocks can be run and re-run iteratively on the author's machine, and the entirety of the code from within a document can be extracted (called
+   /tangling/) into a final executable file.
+
+   For a development blog, code examples are extremely important; this makes Babel an incredible tool to have at your disposal as a blog author! For example, as I'm writing
+   this post, I can embed a simple block of Haskell code. When I press a key in my editor, the block is executed /directly within the post/, meaning that I never have to stop
+   writing my blog post to write my code or execute my examples! After the results block I'll include a GIF of the process so that you can see how it works.
+
+   #+begin_src haskell
+   putStrLn "Hello, Hugo! And again"
+   #+end_src
+
+   #+RESULTS:
+   : Hello, Hugo! And again
+
+   The GIF, as promised (you may need to click it to read the text):
+
+   [[/gifs/org-babel-simple.gif]]
+
+   This example only scratches the surface of the functionality provided by org-mode and org-babel. If you're interested to learn more about these, please let me
+   know; I do plan on writing a more in-depth post on Org in the future.
+
+* Hosting
+
+  One of the nice things about using a static site generator is that your hosting options are wide open. Since you're reading this, you're probably aware that I ended up
+  deciding on GitHub Pages; I like GitHub as a collaboration platform, and have read some nice blogs on GitHub Pages in the past, so Pages was the first option I thought to
+  try for hosting my site. This turned out to be a good decision, as hosting a static site on GitHub Pages couldn't be much easier.
+
+  It's possible that there are better hosting options, but Pages is free to use and I literally had the site up in around two minutes, so I didn't feel a need to look
+  much further.
+
+* Putting it all together
+
+  The only thing left is to show an example for how all of this works!
+
+  Here's the complete authoring and deployment process that I used to generate this post:
+
+  #+begin_src bash
+  cd ~/git/blog-hugo
+  hugo new posts/blog-genesis.org # Create the post file
+  emacs -nw content/posts/blog-genesis.org # Write the post
+  hugo # Build the site
+  # Deploy to GitHub
+  cd public
+  git commit -m "Made a change to the blog"
+  git push origin master
+  #+end_src
+
+  [[https://www.github.com/jkaye2012/blog-hugo][This blog's source code]] is a very simple example of what you might expect a statically-generated blog to look like.
+
+  [[https://github.com/jkaye2012/blog-hugo/blob/master/content/posts/blog-genesis.org][The source code for this post]] should be very easy to understand as well.
+
+* Closing notes
+
+  Getting a personal blog up and running is a fun project that I would recommend to any developer who has an interesting in writing.
+  The open-source tools in this space are easy to use and provide a great experience!
+
+  To those of you who stuck around, I hope you enjoyed the first post. I hope to write on more interesting technical topics in the near
+  future, so stay tuned!
