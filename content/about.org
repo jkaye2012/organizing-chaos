@@ -1,0 +1,20 @@
+---
+title: "A bit about me"
+date: 2020-12-13T13:28:13-07:00
+draft: false
+---
+
+* Background
+
+  I'm currently the Head of Technology for Belleuve Capital, the research & development arm of [[http://www.belvederetrading.com][Belvedere Trading]].
+  I enjoy working with many different programming languages to design robust and easily maintainable systems. I believe
+  that embracing many different languages (and their corresponding communities) is a great way to expand one's knowledge
+  and understanding of software.
+
+  When I'm not working or writing code, I love lifting weights, skiing, hiking, and gaming.
+
+* Contact
+
+  I'm always happy to hear from other technology enthusiasts. The best way to reach me is though [[mailto:jkaye@belvederetrading.com][my work address]].
+
+  If you're a recruiter, I'm not currently looking for work, but you can feel free to connect with me on LinkedIn via the link on the sidebar.

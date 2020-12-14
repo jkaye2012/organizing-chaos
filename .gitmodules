@@ -1,0 +1,6 @@
+[submodule "themes/strange-case"]
+	path = themes/strange-case
+	url = https://github.com/jkaye2012/strange-case.git
+[submodule "public"]
+	path = public
+	url = https://github.com/jkaye2012/jkaye2012.github.io.git

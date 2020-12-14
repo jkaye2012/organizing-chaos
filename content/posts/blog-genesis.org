@@ -1,0 +1,26 @@
+---
+title: "Creating a personal development blog"
+date: 2020-12-13T18:13:18-07:00
+draft: true
+---
+
+* How I created this blog
+
+  I'm the type of person who loves to tinker with new pieces of technology. Recently, I've been experimenting with a few different
+  technical ideas that I thought were worth writing about (stay tuned for future posts!), so naturally I started to get excited about
+  the prospect of setting up a blogging environment. After a few days of research/experimentation, I've arrived at a very simple setup
+  that I'm quite happy with.
+
+  The remainder of this post describes the open-source tools and workflow that I'm using to create this blog, including the post that
+  you're reading right now. How meta!
+
+** Requirements
+
+   Before building something, it's always important to consider the basic requirements for solving the problem at hand. For this personal
+   development blog, my basic requirements were simple. The most important things to me were that my setup should be:
+
+   - Simple:
+   - Efficient:
+   - Consistent:
+
+** Editing
