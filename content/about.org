@@ -1,13 +1,15 @@
 ---
 title: "A bit about me"
-date: 2020-12-13T13:28:13-07:00
+date: 2022-10-01
 draft: false
 ---
 
 * Background
 
-  I'm currently the Head of Technology for Belleuve Capital, the research & development arm of [[http://www.belvederetrading.com][Belvedere Trading]].
-  I enjoy working with many different programming languages to design robust and easily maintainable systems. I believe
+  I'm currently the Head of Technology for [[http://www.belvederetrading.com][Belvedere Trading]]'s office in Boulder, focused on research and development
+  of fully automated market-making systems. As a leader, I believe that maintaining trust through honesty and consistent
+  expectations is key to building high-performing teams and organizations. As a technologist,
+  I enjoy exploring different programming languages and paradigms to design robust and easily maintainable systems. I believe
   that embracing many different languages (and their corresponding communities) is a great way to expand one's knowledge
   and understanding of software.
 
