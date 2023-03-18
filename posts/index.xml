@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Organizing Chaos</title>
+    <link>https://jkaye2012.github.io/posts/</link>
+    <description>Recent content in Posts on Organizing Chaos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jkaye2012.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go slow to move fast</title>
+      <link>https://jkaye2012.github.io/posts/go-slow-move-fast/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkaye2012.github.io/posts/go-slow-move-fast/</guid>
+      <description>Engineering teams can often improve their long-term development velocity by slowing down in the short term   A shared misunderstanding Technical debt is an often debated topic. Like most concepts in software, it isn&amp;rsquo;t particularly difficult to find arguments supporting opposite sides of the spectrum - in a single minute of searching I was able to find that some believe that technical debt doesn&amp;rsquo;t exist, while others feel that technical debt is the most important aspect of product development.</description>
+    </item>
+    
+    <item>
+      <title>Striped development</title>
+      <link>https://jkaye2012.github.io/posts/striped-development/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkaye2012.github.io/posts/striped-development/</guid>
+      <description>Incremental progress on large projects can be achieved by developing functional stripes across the system&#39;s components   When planning the delivery of a software project, there are many different strategies for handling the design and implementation of the system. At the extremes, we could attempt to complete a fully-specified design before writing any code at all, or we could start writing code without putting any thought towards our design and architecture at all.</description>
+    </item>
+    
+    <item>
+      <title>Creating a development blog</title>
+      <link>https://jkaye2012.github.io/posts/blog-genesis/</link>
+      <pubDate>Sun, 13 Dec 2020 18:13:18 -0700</pubDate>
+      
+      <guid>https://jkaye2012.github.io/posts/blog-genesis/</guid>
+      <description>Welcome to the inaugural post of Organizing Chaos!
+ I&amp;#39;m the type of person who loves to tinker with new pieces of technology. Recently, I&amp;#39;ve been experimenting with a few different technical ideas that I thought were worth writing about (stay tuned for future posts 😉), so naturally I started to get excited about the prospect of setting up a personal development blog for myself. After a weekend of research and experimentation, I&amp;#39;ve arrived at a very simple (yet effective!</description>
+    </item>
+    
+  </channel>
+</rss>
