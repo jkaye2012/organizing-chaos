@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Organizing Chaos"
 theme = "strange-case"
 
+[author]
+name = "Jordan Kaye"
+
 [params]
 description = "Thoughts on software and technical leadership"
 colorScheme = "scheme-darkbrown"
