@@ -5,7 +5,8 @@ theme = "mini"
 
 [params]
 author = "Jordan Kaye"
-description = "Thoughts on software and technical leadership"
+bio = "Thoughts on technical leadership and software"
+description = "Thoughts on technical leadership and software"
 colorScheme = "scheme-darkbrown"
 enableRSS = true
 copyright = "Copyright 2023 | Jordan Kaye"
