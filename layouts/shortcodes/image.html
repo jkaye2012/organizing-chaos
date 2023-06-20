@@ -1,5 +1,5 @@
 
 {{ if (.Get "ruled") }}<hr />{{ end }}
-<img {{ with .Get "src" }} src="{{ . }}" {{ end }} {{ with .Get "tooltip" }} title="{{ . }}" {{ end }} />
+<img {{ with .Get "src" }} class="oc-img" src="{{ . }}" {{ end }} {{ with .Get "tooltip" }} title="{{ . }}" {{ end }} />
 {{ if (.Get "ruled") }}<hr />{{ end }}
 <p />
