@@ -11,7 +11,7 @@ colorScheme = "scheme-darkbrown"
 enableRSS = true
 copyright = "Copyright 2023 | Jordan Kaye"
 showPowerBy = false
-customCSS = ["css/custom.css"]
+customCSS = ["/css/custom.css"]
 
 [social]
 github = "https://github.com/jkaye2012"
