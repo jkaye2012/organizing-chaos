@@ -39,15 +39,15 @@ Strong leaders should be also be accustomed to the approach, but this is unfortu
 In many ways, human systems are more difficult to design and modify than their technical counterparts. People are
 complex, individual, and don't follow the strict rules that we can happily expect of our code and operating systems. So
 why should we focus on creating flawless systems for collaboration? Every company is different. Every team within every
-company is different. Every person within every team is different. While there are strategies that we can
+company is different. Every person within every team is different. While there are strategies that we can use to
 increase the chance of success across teams and organizations, leaders should be careful not to reduce their
 systems to rigid rules that resist change.
 
 Time spent trying to craft a perfect process or [SDLC](https://en.wikipedia.org/wiki/Systems_development_life_cycle)
 could be better spent crafting an environment of psychological safety. Empower people to provide feedback. Give teams
 the autonomy and purpose that they need to make changes to the way that they work. Understand that the whole is more
-than the sum of its parts. Embrace that nothing will ever be perfect. By focusing on the ability to adapt and improve as
-situations change means that it doesn't really matter so much how people are working at any point in time, provided that
+than the sum of its parts. Embrace that nothing will ever be perfect. Focus on the ability to adapt and improve as
+situations change. It doesn't really matter so much how people are working at any point in time provided that
 their goals are being accomplished.
 
 Thus my assertion: whether you're working with people or with technology, your ability to change decisions in the future
