@@ -11,40 +11,36 @@ Most decisions that you make are not nearly as important as your ability to chan
 {{</tagline>}}
 
 When designing [systems](/lexicon#system), it's easy to get caught up in the minutia of each decision that has to be
-made along the way. For technical systems one may be worried about which logging framework to use or how the systems'
-concurrency model should work. For human systems, the concern may instead be focused on how many meetings to hold, with
-whom, and how often.
+made along the way. Technical systems may raise concerns about choosing the appropriate logging framework or determining
+the most effective concurrency model. Human systems may instead be concerned with how many meetings to hold, with whom,
+and how often.
 
-While many individual decisions may be important to the outcome of the project, what is likely to be significantly more
-important is the ability to change those decisions in the future. With enough thought and planning, it's possible to
-increase the probability of a correct decision that will stand the test of time, but it's highly unlikely that you'll be
-able to get that probability anywhere close to 100%. Even if it somehow is possible to reach that level of certainty,
+While individual decisions may be important to the outcome of the project, the ability to adapt and change those
+decisions in the future is likely to be significantly more critical. Despite careful thought and planning, achieving
+100% certainty in the correctness of every decision is highly unlikely. Even if this level of certainty were possible,
 the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) suggests that 80% of the overall outcome will be
-driven by only 20% of these decisions; therefore, spending so much time to ensure the absolute correctness of _every_
-decision would necessarily result in a huge amount of wasted time and effort.
+driven by only 20% of these decisions; therefore, investing excessive time to ensure the absolute correctness of _every_
+decision would necessarily result in a considerable amount of wasted resources.
 
-Because it's almost guaranteed that many of your decisions are going to have to be adapted to changing requirements or
-unforeseen constraints, it's often better to focus on the ease of modifying a decision than it is to focus on trying to
-make the absolute best decision at any point in time.
-
-The idea can be extended a step further by attempting to define the truly fundamental properties that we believe cannot
-(or should not) change over time. These are Pareto's "vital few": the conceptual building blocks that can be used to
-frame all other decisions. They are where most time should be spent and where uncertainty should be clarified and
-removed to whatever extent possible depending on the problem domain.
+Given that many decisions will need to be adapted to changing requirements or unforeseen constraints, it is more prudent
+to focus on the ease of modifying decisions rather than striving for perfection at any given point. Taking this idea a
+step further involves identifying the fundamental properties that are believed to be resistant to change over time — Pareto's
+"vital few". These conceptual building blocks serve as a foundation for framing all other decisions,
+warranting dedicated time to clarify and reduce uncertainty based on the specific problem domain.
 
 Strong technologists are already accustomed to this type of thinking: [modular
 design](https://en.wikipedia.org/wiki/Modular_design), the [single-responsibility
 principle](https://en.wikipedia.org/wiki/Single-responsibility_principle),
 [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)), and
 [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) are just a few examples of the types of techniques
-and concepts that software engineers employ to create technical systems that are not difficult to modify over time.
-Strong leaders should be accustomed to it as well, but this is unfortunately not always the case.
+and concepts that software engineers employ to create technical systems that can be easily modified over time.
+Strong leaders should be also be accustomed to the approach, but this is unfortunately not always the case.
 
 In many ways, human systems are more difficult to design and modify than their technical counterparts. People are
 complex, individual, and don't follow the strict rules that we can happily expect of our code and operating systems. So
-why should we focus on creating perfect systems of working together? Every company is different. Every team within every
-company is different. Every person within every team is different. While there are strategies that we can employ that
-will increase our chances of success across teams and organizations, leaders should be careful not to reduce their
+why should we focus on creating flawless systems for collaboration? Every company is different. Every team within every
+company is different. Every person within every team is different. While there are strategies that we can
+increase the chance of success across teams and organizations, leaders should be careful not to reduce their
 systems to rigid rules that resist change.
 
 Time spent trying to craft a perfect process or [SDLC](https://en.wikipedia.org/wiki/Systems_development_life_cycle)
@@ -54,5 +50,5 @@ than the sum of its parts. Embrace that nothing will ever be perfect. By focusin
 situations change means that it doesn't really matter so much how people are working at any point in time, provided that
 their goals are being accomplished.
 
-Thus my assertion: whether you're working with people or with tech, most decisions that you make are not nearly as
-important as your ability to change them in the future.
+Thus my assertion: whether you're working with people or with technology, your ability to change decisions in the future
+will often outweigh the importance of the decisions themselves.
