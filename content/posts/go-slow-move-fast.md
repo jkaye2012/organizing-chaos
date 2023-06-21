@@ -2,10 +2,13 @@
 title: "Go slow to move fast"
 date: 2023-03-18
 draft: false
+tags:
+  - practices
+  - sdlc
 ---
 
 {{<tagline>}}
-Engineering teams can often improve their long-term development velocity by slowing down in the short term
+Engineering teams can often improve their long-term development velocity by slowing down in the short term.
 {{</tagline>}}
 
 ## A shared misunderstanding

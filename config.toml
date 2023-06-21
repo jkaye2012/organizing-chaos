@@ -5,15 +5,18 @@ theme = "mini"
 
 [params]
 author = "Jordan Kaye"
-bio = "Thoughts on technical leadership and software"
-description = "Thoughts on technical leadership and software"
+bio = "Thoughts on technical leadership and software engineering"
+description = "Thoughts on technical leadership and software engineering"
 colorScheme = "scheme-darkbrown"
 enableRSS = true
 copyright = "Copyright 2023 | Jordan Kaye"
 showPowerBy = false
 customCSS = ["/css/custom.css"]
 
+[[params.links]]
+name = "Lexicon"
+path = "/lexicon/"
+
 [social]
 github = "https://github.com/jkaye2012"
 linkedin = "https://www.linkedin.com/in/jordan-kaye-8bb64537/"
-

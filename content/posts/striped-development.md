@@ -2,10 +2,13 @@
 title: "Striped development"
 date: 2022-10-01
 draft: false
+tags:
+  - practices
+  - sdlc
 ---
 
 {{<tagline>}}
-Incremental progress on large projects can be achieved by developing functional stripes across the system's components
+Incremental progress on large projects can be achieved by developing functional stripes across the system's components.
 {{</tagline>}}
 
 When planning the delivery of a software project, there are many different strategies for handling the design and implementation
