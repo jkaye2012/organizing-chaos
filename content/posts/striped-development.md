@@ -116,7 +116,7 @@ we may reach a point where we find that implementing reasonable tests is very di
 clear signs that complexity has not been properly managed.
 
 In the short term, it may feel like doing all of this is slowing you down. If we're talking about amount accomplished in a few days, this is most likely true; however,
-as I'll be addressing in [Go Slow to Move Fast](/posts/go-slow-move-fast/) next month, over a longer period of time, keeping up with these basic
+as I've be addressed in [Go Slow to Move Fast](/posts/go-slow-move-fast/), over a longer period of time, keeping up with these basic
 maintenance and quality activities will probably _increase_ your total velocity over the same time period. It's counter-intuitive, but give it a try and see if it
 holds true for you as it does for me.
 
