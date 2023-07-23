@@ -218,8 +218,7 @@ a full programming language working from source code to running executable.
 The first stripe exists to give us a strong base of code to work within. The language I chose to use as a model for implementing each component had nothing to do
 with the actual Jackal language that will eventually be implemented using these components, but was simple enough that it allowed me to focus instead on the overall
 structure and functionality _within_ each component. I was able to explore different decisions around how those components might interact with one another and how
-they should interact with the outside world (an application of [Imperative Shell, Functional Core](/posts/imperative-shell-functional-core/), which I plan to post
-about in the future).
+they should interact with the outside world (an application of Imperative Shell, Functional Core, which I plan to post about in the future).
 
 #### Second stripe
 
