@@ -8,7 +8,7 @@ author = "Jordan Kaye"
 bio = "Thoughts on technical leadership and software engineering"
 description = "Thoughts on technical leadership and software engineering"
 colorScheme = "scheme-darkbrown"
-enableRSS = true
+subscribe = "rss"
 copyright = "Copyright 2023 | Jordan Kaye"
 showPowerBy = false
 customCSS = ["/css/custom.css"]
@@ -16,6 +16,10 @@ customCSS = ["/css/custom.css"]
 [[params.links]]
 name = "Lexicon"
 path = "/lexicon/"
+
+[[params.links]]
+name = "Subscribe"
+path = "/subscribe/"
 
 [social]
 github = "https://github.com/jkaye2012"
