@@ -1,5 +1,5 @@
 ---
-title: "Flexible systems"
+title: Flexible systems
 date: 2023-06-21
 draft: false
 tags:

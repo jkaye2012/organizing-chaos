@@ -1,5 +1,5 @@
 ---
-title: "Striped development"
+title: Striped development
 date: 2022-10-01
 draft: false
 tags:

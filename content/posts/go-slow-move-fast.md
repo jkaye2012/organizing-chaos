@@ -1,5 +1,5 @@
 ---
-title: "Go slow to move fast"
+title: Go slow to move fast
 date: 2023-03-18
 draft: false
 tags:
