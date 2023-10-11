@@ -18,8 +18,8 @@ name = "Lexicon"
 path = "/lexicon/"
 
 [[params.links]]
-name = "Subscribe"
-path = "/subscribe/"
+name = "Follow"
+path = "/follow/"
 
 [social]
 github = "https://github.com/jkaye2012"
