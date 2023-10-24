@@ -34,7 +34,7 @@ which I've been unable to find a source:
 
 The point is that it doesn't really matter how quickly someone is able to write code if they're writing code for the
 wrong reasons. One of the worst possible outcomes for a software engineer is to spend days or weeks working on a solution only
-to learn that they've been building the wrong the entire time. Of course, this usually isn't solely the fault of the
+to learn that they've been building the wrong thing the entire time. Of course, this usually isn't solely the fault of the
 engineer alone (and agile methodologies should help to identify problems like this earlier in the process), but the fact
 remains that there is almost always more than each of us can be doing as individuals to
 make sure that we're solving the right problems in the best way available to us.
