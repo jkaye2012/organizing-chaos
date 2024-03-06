@@ -84,5 +84,5 @@ should search for enabling constraints that allow us to simplify the designs and
 also recognize that a constraint that enables when a system is first designed can eventually become a restriction with
 significant negative impact if proper care isn't exercised.
 
-It's almost alaways a good idea to pay attention to that constraints that you're working against and how they influence
+It's almost always a good idea to pay attention to that constraints that you're working against and how they influence
 your decision making.
