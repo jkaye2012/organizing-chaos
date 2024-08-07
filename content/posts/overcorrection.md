@@ -11,7 +11,7 @@ tags:
 Enable mindset changes by forcing changes to behaviors
 {{</tagline>}}
 
-Changing the way that one thinks about things is difficult. I'd hazard a guess that everyone has tried and failed at
+Changing the way that we think about things is difficult. I'd hazard a guess that everyone has tried and failed at
 last once, even when imbued with great motivation to make a change. It's relatively easy to decide that a change is
 needed, and it can even be easy to force our thoughts in a different direction for a short period of time, but somehow
 after a few short days or weeks we find ourselves right back where we started wondering where it all went wrong.
@@ -19,8 +19,8 @@ after a few short days or weeks we find ourselves right back where we started wo
 The entire process is frustrating. Wanting to make a change often just isn't enough to actually make it happen,
 especially not in a way that _really_ sticks over time.
 
-Overcorrection usually has a negative connotation, but specifically when thinking about how to enact mindset changes
-I've found that intentional overcorrection of behaviors can be a powerful tool. One of the barriers that I've had
+Overcorrection usually has a negative connotation, but when used intentionally I believe it can be a powerful tool.
+One of the barriers that I've had
 personally to making mindset changes that stick is the [power of habit](https://www.charlesduhigg.com/the-power-of-habit).
 When we experience something that cues one of our ingrained habits, we have to find a way to fight our natural
 inclination to continue to do what we've always done. Especially for the kinds of work that we do every day, these
