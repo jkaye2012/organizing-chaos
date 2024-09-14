@@ -16,8 +16,7 @@ I make no assertion that these definitions are universal!
 
 ## System
 
-A `system` takes its definition from Donella Meadows' [Thinking in
-Systems](https://www.goodreads.com/en/book/show/3828902):
+A `system` takes its definition from Donella Meadows' [Thinking in Systems](https://www.goodreads.com/en/book/show/3828902):
 
 > A system is an interconnected set of elements that is coherently organized in a way that achieves something (function
 > or purpose)

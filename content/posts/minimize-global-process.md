@@ -25,7 +25,7 @@ of the main benefits of an effective Platform was "reducing duplicate effort for
 I agreed wholeheartedly with their point, but also couldn't help but think that the core message of this statement
 extends far beyond the details of Platform Engineering. The idea that we should be able to simplify workflows or reduce
 duplicate effort is very common among technical leaders; after all, many of us were once engineers ourselves and
-optimizing [systems](../lexicon/index.md#system) is second nature. Removing unnecessary work sounds great on the
+optimizing [systems](/lexicon/#system) is second nature. Removing unnecessary work sounds great on the
 surface, so it's not uncommon to see leaders who strive for global consistency across their entire organization.
 
 Unfortunately, the complex dynamics of high functioning teams means that the situation is not as simple as we might like
@@ -52,7 +52,7 @@ effective for them. Giving a team autonomy over the way that they work has many 
 * Members of the team will feel greater ownership over their work
 * Different teams gain the ability to work in radically different ways; [ensemble
   programming](https://ensembleprogramming.xyz/) being one such example
-* The team will have the ability to [change their localized process](./flexible-systems.md) quickly and easily
+* The team will have the ability to [change their localized process](/flexible-systems/) quickly and easily
 * Engineers will no longer feel burdened by undue process as they now have a large hand in controlling it
 
 The last point is particularly salient and is something that most professional engineers and leaders are likely to have
