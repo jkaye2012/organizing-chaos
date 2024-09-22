@@ -24,4 +24,4 @@ I'm always happy to hear from other technology enthusiasts. The best way to reac
 [my work address](mailto:jkaye@belvederetrading.com).
 
 If you're a recruiter, I'm not currently looking for work, but you can feel free to connect with me on LinkedIn via the
-link on the sidebar.
+link below.
