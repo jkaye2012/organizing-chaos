@@ -4,10 +4,11 @@ date: 2024-03-06
 draft: false
 tags:
   - reflection
+summary: Constraints don't always have to make things more difficult
 ---
 
 {{<tagline>}}
-Constraints don't always have to make things more difficult.
+Constraints don't always have to make things more difficult
 {{</tagline>}}
 
 What comes to mind when you hear the word _constraint_?

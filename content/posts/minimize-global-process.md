@@ -5,6 +5,7 @@ draft: false
 tags:
   - practices
   - sdlc
+summary: Global consistency comes at the cost of autonomy; be careful not to stifle what could be your most effective teams
 ---
 
 {{<tagline>}}

@@ -5,6 +5,7 @@ draft: false
 tags:
   - reflection
   - leadership
+summary: Enable mindset changes by forcing changes to behaviors
 ---
 
 {{<tagline>}}

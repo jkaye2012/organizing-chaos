@@ -5,6 +5,7 @@ draft: false
 tags:
   - practices
   - sdlc
+summary: Engineering teams can often improve their long-term development velocity by slowing down in the short term.
 ---
 
 {{<tagline>}}

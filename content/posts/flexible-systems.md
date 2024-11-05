@@ -4,10 +4,11 @@ date: 2023-06-21
 draft: false
 tags:
   - reflection
+summary: Most decisions that you make are not nearly as important as your ability to change them in the future
 ---
 
 {{<tagline>}}
-Most decisions that you make are not nearly as important as your ability to change them in the future.
+Most decisions that you make are not nearly as important as your ability to change them in the future
 {{</tagline>}}
 
 When designing [systems](/lexicon#system), it's easy to get caught up in the minutia of each decision that has to be

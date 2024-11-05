@@ -4,6 +4,7 @@ date: 2023-07-10
 draft: false
 tags:
   - leadership
+summary: Support your teams' decision making processes while giving them the space they need to function autonomously.
 ---
 
 {{<tagline>}}

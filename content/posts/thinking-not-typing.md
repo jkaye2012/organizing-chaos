@@ -5,6 +5,7 @@ draft: false
 tags:
   - leadership
   - software
+summary: Weeks of coding can save you hours of planning
 ---
 
 {{<tagline>}}

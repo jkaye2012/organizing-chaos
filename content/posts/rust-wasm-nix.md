@@ -6,6 +6,7 @@ tags:
   - nix
   - rust
   - wasm
+summary: Getting started with a new ecosystem can be difficult. Using Nix makes the solution reproducible!
 ---
 
 {{<tagline>}}

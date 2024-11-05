@@ -5,6 +5,7 @@ draft: false
 tags:
   - leadership
   - practices
+summary: Building ownership requires relinquishing control
 ---
 
 {{<tagline>}}

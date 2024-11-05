@@ -5,6 +5,7 @@ draft: false
 tags:
   - leadership
   - software
+summary: Simple is the opposite of complex, easy is the opposite of difficult
 ---
 
 {{<tagline>}}
