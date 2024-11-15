@@ -2,7 +2,7 @@
   description = "Thoughts on technical leadership and software engineering";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-24.05";
+    nixpkgs.url = "nixpkgs/nixos-23.11";
     devenv.url = "github:jkaye2012/devenv";
   };
 
