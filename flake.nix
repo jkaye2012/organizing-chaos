@@ -2,22 +2,27 @@
   description = "Thoughts on technical leadership and software engineering";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-23.11";
-    flake-utils.url = "github:numtide/flake-utils";
-    neovim.url = "github:jkaye2012/neovim-flake";
-    helix.url = "github:jkaye2012/helix-flake";
+    nixpkgs.url = "nixpkgs/nixos-24.05";
+    devenv.url = "github:jkaye2012/devenv";
   };
 
-  outputs = { self, nixpkgs, flake-utils, neovim, helix }:
-    flake-utils.lib.eachDefaultSystem
-      (system:
-        let
-          pkgs = nixpkgs.legacyPackages.${system};
-          jkvim = neovim.packages.${system};
-          jkhelix = helix.packages.${system};
-        in
-          {
-            devShells.default = import ./shell.nix { inherit pkgs jkvim jkhelix; };
-          }
-      );
+  outputs =
+    {
+      self,
+      nixpkgs,
+      devenv,
+    }:
+    devenv.lib.forAllSystems nixpkgs (
+      system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in
+      {
+        devShells.${system}.default = pkgs.mkShell {
+          name = "organizing-chaos";
+          inputsFrom = [ devenv.devShells.${system}.default ];
+          packages = with pkgs; [ hugo ];
+        };
+      }
+    );
 }
