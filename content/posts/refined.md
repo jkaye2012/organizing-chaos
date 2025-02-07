@@ -162,7 +162,9 @@ expectations that we have of them.
 ## Wrapping up
 
 This was really just a quick tour of my motivation for creating `refined`. If you're interested in
-learning more, check out the
+learning more (in particular, I think the unstable
+[implication feature](https://docs.rs/refined/latest/refined/implication/trait.Implies.html) is
+pretty cool!), check out the
 [crate documentation](https://docs.rs/refined/latest/refined/index.html). If you find any issues, or
 have any ideas for how the library could be improved, please
 [open an issue](https://github.com/jkaye2012/refined/issues/new?template=Blank+issue) so that we can
