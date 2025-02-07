@@ -2,6 +2,7 @@ baseURL = "https://jkaye2012.github.io"
 languageCode = "en-us"
 title = "Organizing Chaos"
 theme = "mini"
+enableEmoji = true
 
 [params]
 author = "Jordan Kaye"

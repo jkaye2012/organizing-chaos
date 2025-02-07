@@ -6,11 +6,11 @@
         "wrapper-manager": "wrapper-manager"
       },
       "locked": {
-        "lastModified": 1731503979,
-        "narHash": "sha256-WtquX3uoA4lZXtZybNPq3HDAdbk34RTWrS7nU9sJSHs=",
+        "lastModified": 1738589840,
+        "narHash": "sha256-PXbYU30NvpHh1Iu5E+IeUSpLwDnYM9ZtTzERTTxeGdg=",
         "owner": "jkaye2012",
         "repo": "devenv",
-        "rev": "57c2ae68b905b126a553bc920f36b475bf62a94e",
+        "rev": "40c5bc5c18a1fce7ef74a751465563d7639202bf",
         "type": "github"
       },
       "original": {
@@ -21,16 +21,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1727672256,
-        "narHash": "sha256-9/79hjQc9+xyH+QxeMcRsA6hDyw6Z9Eo1/oxjvwirLk=",
+        "lastModified": 1738435198,
+        "narHash": "sha256-5+Hmo4nbqw8FrW85FlNm4IIrRnZ7bn0cmXlScNsNRLo=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "1719f27dd95fd4206afb9cec9f415b539978827e",
+        "rev": "f6687779bf4c396250831aa5a32cbfeb85bb07a3",
         "type": "github"
       },
       "original": {
         "id": "nixpkgs",
-        "ref": "nixos-24.05",
+        "ref": "nixos-24.11",
         "type": "indirect"
       }
     },
