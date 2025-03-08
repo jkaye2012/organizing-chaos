@@ -4,6 +4,7 @@ date: 2025-02-07
 draft: false
 tags:
   - rust
+  - refined
 summary: An alpha library for refinement types with rich support for serde
 ---
 
