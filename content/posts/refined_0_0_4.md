@@ -1,5 +1,5 @@
 ---
-title: "Refinement in Rust: optimization, arithmetic, and stateful refinement"
+title: "Refinement in Rust: optimization, arithmetic, and stateful predicates"
 date: 2025-03-08
 draft: false
 tags:
@@ -28,7 +28,7 @@ The major features that this post will focus on are:
 - `arithmetic`: a feature flag that allows relevant specializations of the
   [Refinement](https://docs.rs/refined/latest/refined/struct.Refinement.html) struct to be used
   directly with the arithmetic traits from [std::ops](https://doc.rust-lang.org/std/ops/index.html)
-- Stateful refinement: the ability for users to define
+- Stateful predicates: the ability for users to define
   [StatefulPredicate](https://docs.rs/refined/latest/refined/trait.StatefulPredicate.html)
   implementations, allowing for more efficient refinement in cases where applying predicate logic is
   both pure and computationally intensive
@@ -202,9 +202,9 @@ situations, but if you find an arithmetic operation that you think should be sup
 please [let me know](https://github.com/jkaye2012/refined/issues/new) so that we can get it added to
 the library.
 
-# Stateful refinement
+# Stateful predicates
 
-Stateful refinement allows for the use of
+Stateful predicates, as the name suggests, allows for the use of
 [predicates that contain state](https://docs.rs/refined/latest/refined/trait.StatefulPredicate.html).
 This is useful in situations where the "materialization" of a predicate is costly or prone to
 potential failure due to e.g. a dependency on an external resource.
