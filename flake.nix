@@ -12,7 +12,7 @@
       nixpkgs,
       devenv,
     }:
-    devenv.lib.forAllSystems nixpkgs (
+    devenv.lib.util.forAllSystems nixpkgs (
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
