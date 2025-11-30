@@ -20,7 +20,7 @@
       {
         devShells.${system}.default = pkgs.mkShell {
           name = "organizing-chaos";
-          inputsFrom = [ devenv.devShells.${system}.default ];
+          inputsFrom = [ devenv.devShells.${system}.basic ];
           packages = with pkgs; [ hugo ];
         };
       }
